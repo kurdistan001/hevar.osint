@@ -4,10 +4,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from colorama import Fore, init
 import random
 
-# Initialize colorama
+
 init(autoreset=True)
 
-# New ASCII Banner
+
 BANNER = f"""
 {Fore.RED}█████                                              
 {Fore.RED}░░███                                               
@@ -23,7 +23,7 @@ BANNER = f"""
 {Fore.RED}╚══════════════════════════════════╝
 """
 
-# Fun loading messages
+
 LOADING_MSGS = [
     "tawaw bw 🔥...",
     "tawaw bw 🔥...",
@@ -41,7 +41,7 @@ FUN_FACTS = {
 }
 
 PLATFORMS = {
-    # Tier 1: Top 50 Social Media (Most Popular)
+    
     "Facebook": "https://www.facebook.com/{}",
     "Instagram": "https://www.instagram.com/{}",
     "Twitter/X": "https://twitter.com/{}",
@@ -91,7 +91,7 @@ PLATFORMS = {
     "Blogger": "https://{}.blogspot.com",
     "WordPress": "https://{}.wordpress.com",
 
-    # Tier 2: 50 Tech/Developer Platforms
+ 
     "GitHub": "https://github.com/{}",
     "GitLab": "https://gitlab.com/{}",
     "Bitbucket": "https://bitbucket.org/{}",
@@ -142,7 +142,7 @@ PLATFORMS = {
     "ACM": "https://dl.acm.org/profile/{}",
     "arXiv": "https://arxiv.org/user/{}",
 
-    # Tier 3: 50 Niche/Other Platforms
+    
     "Wikipedia": "https://en.wikipedia.org/wiki/User:{}",
     "IMDb": "https://imdb.com/user/{}",
     "Goodreads": "https://goodreads.com/{}",
