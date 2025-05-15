@@ -1,22 +1,41 @@
 # hevar.osint
 
 
+la  kali linux/termux aw toola esh daka
 
-bo bakar henani aw toola sarata la kali linux terminal bkawa w aw commandana bakar bena
+comandakan dana dana bakar bena 
+
+-----------------------------------------------------------
+bo (KALI LINUX)
 
 sudo apt update
 
-sudp apt upgrade
+sudo apt upgrade
 
 sudo apt install python
 
-
+git clone https://github.com/kurdistan001/hevar.osint
 
 cd hevar.osint
 
 python hevar.py
 
+-----------------------------------------------------------
+bo (TERMUX)
 
+apt update
+
+apt upgrade
+
+apt install python
+
+git clone https://github.com/kurdistan001/hevar.osint
+
+cd hevar.osint
+
+python hevar.py
+
+-----------------------------------------------------------
 
 
 
