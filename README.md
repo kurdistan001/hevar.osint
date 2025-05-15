@@ -14,7 +14,7 @@ sudo apt upgrade
 
 sudo apt install python
 
-git clone https://github.com/kurdistan001/hevar.osint
+   git clone https://github.com/kurdistan001/hevar.osint
 
 cd hevar.osint
 
